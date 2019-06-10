@@ -21,7 +21,7 @@ git clone https://github.com/Saber2pr/react-redux.git
 ```tsx
 import { createStore, combineReducers } from '@saber2pr/react-redux'
 
-export const [Provider, useStore] = createStore(
+export const [Provider, useStore, store] = createStore(
   combineReducers(reducers),
   State
 )
