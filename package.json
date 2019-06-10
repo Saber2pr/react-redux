@@ -18,7 +18,11 @@
     "start": "tsc --watch",
     "dev": "rollup -c --watch"
   },
-  "keywords": [],
+  "keywords": [
+    "redux",
+    "react",
+    "typescript"
+  ],
   "devDependencies": {
     "@types/react": "^16.8.19",
     "@types/react-dom": "^16.8.4",
